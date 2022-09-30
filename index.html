@@ -6,24 +6,80 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <div id="carousel" class="carousel slider">
-    <ul id="slides-container" class="slides">
-      <li class="slide item active">Slide 1</li>
-      <li class="slide item">Slide 2</li>
-      <li class="slide item">Slide 3</li>
-      <li class="slide item">Slide 4</li>
-      <li class="slide item">Slide 5</li>
-    </ul>
+  <div>
+    <nav id="header" class="navbar">
+      <div class="container">
+        <a href="#" class="navbar-brand">POLAR</a>
+        <div class="navbar-wrap">
+          <ul class="navbar-menu">
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <a href="#" class="callback">Обратная связь</a>
+        </div>
+      </div>
+    </nav>
+
+    <div id="side-bar-left">
+      <p class="text-left">fsdfsdfs</p>
+    </div>
+
+    <div id="main">
+      <div class="carousel slider" id="carousel">
+        <ul id="slides-container" class="slides">
+          <li class="slide item active">
+            <img src="assets/img/work-1.jpg" alt="alt">
+          </li>
+          <li class="slide item">
+            <img src="assets/img/work-2.jpg" alt="alt">
+          </li>
+          <li class="slide item">
+            <img src="assets/img/work-3.jpg" alt="alt">
+          </li>
+          <li class="slide item">
+            <img src="assets/img/work-4.jpg" alt="alt">
+          </li>
+          <li class="slide item">
+            <img src="assets/img/work-5.jpg" alt="alt">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="side-bar-right">
+    <h1>О нас</h1>
+    <p class="text-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet,
+      consectetur
+      adipisicing elit. Quibusdam quisquam rem soluta suscipit harum voluptatibus unde quod nulla libero, assumenda
+      cum aliquam deleniti hic provident laboriosam vel sequi fugiat debitis?</p>
+  </div>
+
+  <div>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__social ">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-google-plus-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-pinterest-square"></i></a>
+          <a href="#"><i class="fab fa-flickr"></i></a>
+        </div>
+      </div>
+    </footer>
   </div>
 
   <script src="assets/js/index.js" type="module"></script>
-
 </body>
 
 </html>

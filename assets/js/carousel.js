@@ -26,7 +26,7 @@ class Carousel {
     const NEXT = `<span class="control control-next" id="next">${this.FA_NEXT}</span>`;
 
     controls.setAttribute('class', 'controls');
-    controls.innerHTML = PAUSE + PREV + NEXT;
+    controls.innerHTML = PREV + PAUSE + NEXT;
     this.container.append(controls);
 
     this.pauseBtn = this.container.querySelector('#pause');
