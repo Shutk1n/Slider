@@ -11,22 +11,31 @@ body {
 
 #side-bar-left {
   height: 100%;
-  width: 24%;
+  width: 28%;
   float: left;
   /* background-color: yellow; */
 }
 #main {
   height: 100%;
-  width: 52%;
+  width: 44%;
   float: left;
   /* background-color: red; */
 }
 
 #side-bar-right {
   height: 100%;
-  width: 24%;
+  width: 28%;
   float: left;
   /* background-color: green; */
+}
+
+.foto {
+  width: 500px;
+  height: 500px;
+}
+
+.photo {
+  margin-top: 75px;
 }
 
 .select {
