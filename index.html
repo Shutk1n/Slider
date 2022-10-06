@@ -16,11 +16,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/adaptive.css">
 
 <body>
 
-  <div>
-    <nav id="header" class="navbar">
+  <div class="page">
+    <header id="header" class="navbar">
       <div class="container">
         <a href="#" class="navbar-brand">
           <p>POLAR</p>
@@ -34,97 +35,94 @@
           <a href="#" class="callback">Feedback</a>
         </div>
       </div>
-    </nav>
+    </header>
 
-    <div id="side-bar-left">
-      <p class="text-left">
+    <div class="block">
+      <div id="side-bar-left" class="content-left">
+        <p class="text-left">
 
-        100% Cotton<br>
+          100% Cotton<br>
 
-        Denim Fabric<br>
+          Denim Fabric<br>
 
-        YKK Zipper<br>
+          YKK Zipper<br>
 
-        Customised YKK Button<br><br>
+          Customised YKK Button<br><br>
 
-        Embroidery on Change Pocket<br>
+          Embroidery on Change Pocket<br>
 
-        Woven Label on Waist<br>
+          Woven Label on Waist<br>
 
-        Tapered Legs<br>
+          Tapered Legs<br>
 
-        Semi Baggy Fit<br><br>
+          Semi Baggy Fit<br><br>
 
 
-        Made in Poland<br>
+          Made in Poland<br>
 
-        Polar Skate Co.
-      </p>
-    </div>
-
-    <div id="main">
-      <div class="carousel slider" id="carousel">
-        <ul id="slides-container" class="slides">
-          <li class="slide item active">
-            <img
-              src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-SP22-Big-Boy-Jeans-Dark-Blue-1_1280x1280.jpg?v=1656664684"
-              alt="alt">
-          </li>
-          <li class="slide item">
-            <img
-              src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-SP22-93-Denim-Green-Black-1_1280x1280.png?v=1646227867"
-              alt="alt">
-          </li>
-          <li class="slide item">
-            <img
-              src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-W21-_93_-Cords-Rust-1_1280x1280.png?v=1638101816"
-              alt="alt">
-          </li>
-          <li class="slide item">
-            <img
-              src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-W21-_92_-Denim-Light-Blue-1_1280x1280.png?v=1638113385"
-              alt="alt">
-          </li>
-          <li class="slide item">
-            <img
-              src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-SU22-_92_-Denim-Blue-Black-1_1280x1280.png?v=1656500588"
-              alt="alt">
-          </li>
-        </ul>
-
+          Polar Skate Co.
+        </p>
       </div>
-    </div>
-  </div>
 
-  <div id="side-bar-right">
-    <div class="select">
-      <div class="select__header">
-        <span class="select__current">Choose:</span>
-        <div class="select__icon"><span class="material-symbols-outlined">
-            expand_more
-          </span>
+      <main id="main" class="content">
+        <div class="carousel slider" id="carousel">
+          <ul id="slides-container" class="slides">
+            <li class="slide item active">
+              <img
+                src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-SP22-Big-Boy-Jeans-Dark-Blue-1_1280x1280.jpg?v=1656664684"
+                alt="alt">
+            </li>
+            <li class="slide item">
+              <img
+                src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-SP22-93-Denim-Green-Black-1_1280x1280.png?v=1646227867"
+                alt="alt">
+            </li>
+            <li class="slide item">
+              <img
+                src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-W21-_93_-Cords-Rust-1_1280x1280.png?v=1638101816"
+                alt="alt">
+            </li>
+            <li class="slide item">
+              <img
+                src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-W21-_92_-Denim-Light-Blue-1_1280x1280.png?v=1638113385"
+                alt="alt">
+            </li>
+            <li class="slide item">
+              <img
+                src="//cdn.shopify.com/s/files/1/0631/7129/products/Polar-Skate-Co-SU22-_92_-Denim-Blue-Black-1_1280x1280.png?v=1656500588"
+                alt="alt">
+            </li>
+          </ul>
+        </div>
+      </main>
+
+      <div id="side-bar-right" class="content-right">
+        <div class="select">
+          <div class="select__header">
+            <span class="select__current">Choose:</span>
+            <div class="select__icon"><span class="material-symbols-outlined">
+                expand_more
+              </span>
+            </div>
+          </div>
+          <div class="select__body">
+            <div class="select__item">1. DENIM BLUE - 140$</div>
+            <div class="select__item">2. DENIM GREEN - 135$</div>
+            <div class="select__item">3. CORDS RUST - 140$</div>
+            <div class="select__item">4. DENIM LIGHT - 120$</div>
+            <div class="select__item">5. BIG BOY JEANS - 120$</div>
+          </div>
+          <div>
+            <a class="button" hre f="" target="_blank">Add to cart</a>
+            <a class="button-size" href="pages/size.html">Size guide</a>
+          </div>
         </div>
       </div>
-      <div class="select__body">
-        <div class="select__item">1. DENIM BLUE - 140$</div>
-        <div class="select__item">2. DENIM GREEN - 135$</div>
-        <div class="select__item">3. CORDS RUST - 140$</div>
-        <div class="select__item">4. DENIM LIGHT - 120$</div>
-        <div class="select__item">5. BIG BOY JEANS - 120$</div>
-      </div>
-      <div>
-        <a class="button" href="" target="_blank">Add to cart</a>
-      </div>
     </div>
-    <div class="photo">
-      <img class="foto" src="assets/img/mainicon.jpg" alt="">
-    </div>
-  </div>
 
-  <div>
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="footer__container">
-        <div class="footer__social ">
+        <div class="footer__social">
           <div class="wrapper">
             <div class="icon facebook">
               <div class="tooltip">Facebook</div>

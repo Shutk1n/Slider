@@ -1,5 +1,32 @@
-@media only screen and (max-width: 1200px) {
-  /*  */
+@media screen and (max-width: 1200px) {
+  #side-bar-left {
+    width: 40%;
+  }
+
+  #main {
+    width: 60%;
+  }
+
+  #side-bar-right {
+    width: 100%;
+  }
+
+  #footer {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    font-size: 44px;
+    margin-top: 20px;
+  }
+
+  .select__header {
+    max-width: 175px;
+  }
+
+  .button {
+    max-width: 150px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
