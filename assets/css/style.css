@@ -57,7 +57,7 @@ body {
   position: relative;
   margin: 0 auto;
   margin-top: 15px;
-  min-width: 200px;
+  min-width: 215px;
 }
 
 .select.is-active .select__body {
@@ -65,7 +65,6 @@ body {
 }
 
 .select__header {
-  max-width: 200px;
   border-radius: 3px;
   border: 1px solid;
   display: flex;
@@ -263,6 +262,7 @@ just for appearance; change whatever you want
   min-width: 10px;
   text-align: center;
   border-radius: 40px;
+  cursor: inherit;
 }
 
 .control:hover {
